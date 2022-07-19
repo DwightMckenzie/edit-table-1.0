@@ -1,0 +1,155 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  background: #e6e6e6;
+	display: flex;
+	justify-content: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	margin-top: 0px;
+}
+
+.container {
+	width: 1000px;
+	height: auto;
+	/* background-color: red; */
+	padding: 5px 15px;
+}
+
+.list-wrppr {
+	background-color: aqua;
+}
+
+.lst-content {
+	width: 1000px;
+	margin: auto;
+	/* background-color:cornsilk !important; */
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+	/* background-color: #f5f5f5; */
+	margin-bottom: auto;
+}
+
+tr {
+	height: 40px;
+}
+td {
+	padding: 10px 5px;
+}
+
+.lst-content thead {
+	height: 30px;
+	border-bottom: 1px solid #555;
+	/* background-color: pink; */
+}
+
+
+
+
+
+
+.crnt-data .edit-rw {
+	width: 20%;
+	text-align: center;
+	margin: auto;
+	/* background-color: #d1d1d1; */
+	/* box-shadow: inset 0px 5px 5px 0px rgb(0 0 0 / 25%); */
+	background: linear-gradient(360deg, rgba(0,0,0,0) 80%, rgba(160,160,160,1) 100%);
+}
+
+.main-rw td:last-child {
+	text-align: center;
+}
+
+.active .inpt-fld {
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #585858;
+	background-color: #ffffff;
+	color: #aaa;
+}
+
+
+
+
+
+
+.edit-rw .cntrl-pnl {
+	width: 20%;
+	text-align: center;
+	margin: auto;
+	/* background-color: aqua; */
+}
+
+.edit-btn {
+	color: #555;
+}
+
+.edit-btn:hover {
+	filter: opacity(0.25);
+}
+
+
+
+
+
+
+.new-data {
+	border-top: 1px solid #555;
+}
+
+
+
+
+
+/* tr {
+	height:auto;
+}
+.edit-rw td {
+	text-align: center;
+	background-color: #eee;
+	box-shadow: inset 0px 0px 5px #999;
+}
+.edit-rw ul {
+	margin-bottom: 0px;
+}
+.edit-rw ul,
+#nw-rw-opts ul {
+	display: inline-flex;
+	flex-direction: row;
+	list-style: none;
+	margin-left: -40px;
+	margin-bottom: 0px;
+}
+.edit-rw ul li,
+#nw-rw-opts ul li {
+	margin-right: 15px;
+}
+a.edit-btn {
+	background-color: #f5f5f5;
+    /* padding: 10px; *
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 3px 7px;
+    border: 1px solid #000;
+    color: #555;
+    text-decoration: none;
+    cursor: pointer;
+}
+a.edit:hover {
+	background-color: #555;
+	color:#fff;
+}
+.bg-success {
+	background-color: #dff0d8;
+	box-shadow: inset 0px 0px 5px #555;
+	color: darkgreen;
+} */
